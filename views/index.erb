@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Personal Journal</title>
+
+    <link href='stylesheets/index.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Walter+Turncoat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Personal<span style = "display: block;">Journal</span></h1>
+    </header>
+    <nav>
+      <a href='../public/months/january.html'>January</a>
+      <a href='../public/months/february.html'>February</a>
+      <a href='../public/months/march.html'>March</a>
+      <a href='../public/months/april.html'>April</a>
+      <a href='../public/months/may.html'>May</a>
+      <a href='../public/months/june.html'>June</a>
+      <a href='../public/months/july.html'>July</a>
+      <a href='../public/months/august.html'>August</a>
+      <a href='../public/months/september.html'>September</a>
+      <a href='../public/months/october.html'>October</a>
+      <a href='../public/months/november.html'>November</a>
+      <a href='../public/months/december.html'>December</a>
+    </nav>
+
+    <main>
+      <h2>How Are You?</h2>
+      <form action='/journal_entry' id='journalentry'>
+        Title: <input type='text' name='title'>
+      </form>
+
+      <textarea id='journal-entry' placeholder='Please Write Your Journal Entry Here...' rows='10' cols='100' form='journalentrry'></textarea>
+      <input type='submit' value='Publish' style='width: 125px; height: 45px;'>
+    </main>
+  </body>
+</html>
