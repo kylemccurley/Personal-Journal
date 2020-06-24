@@ -2,11 +2,10 @@ GEM
   remote: https://www.rubygems.org/
   specs:
     backports (3.17.1)
-    erubis (2.7.0)
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     ruby2_keywords (0.0.2)
@@ -28,7 +27,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  erubis
   sinatra
   sinatra-contrib
 
